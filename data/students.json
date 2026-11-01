@@ -1,0 +1,82 @@
+[
+  {
+    "roll_no": "101",
+    "name": "Rahul Sharma",
+    "department": "Computer Science",
+    "marks": {
+      "Mathematics": 85.0,
+      "Physics": 78.0,
+      "Chemistry": 82.0,
+      "English": 90.0,
+      "Computer Science": 94.0
+    },
+    "total": 429.0,
+    "percentage": 85.8,
+    "grade": "A",
+    "status": "Pass"
+  },
+  {
+    "roll_no": "102",
+    "name": "Priya Patel",
+    "department": "Information Technology",
+    "marks": {
+      "Mathematics": 92.0,
+      "Physics": 88.0,
+      "Chemistry": 95.0,
+      "English": 89.0,
+      "Computer Science": 96.0
+    },
+    "total": 460.0,
+    "percentage": 92.0,
+    "grade": "A+",
+    "status": "Pass"
+  },
+  {
+    "roll_no": "103",
+    "name": "Amit Kumar",
+    "department": "Electronics",
+    "marks": {
+      "Mathematics": 65.0,
+      "Physics": 58.0,
+      "Chemistry": 62.0,
+      "English": 70.0,
+      "Computer Science": 60.0
+    },
+    "total": 315.0,
+    "percentage": 63.0,
+    "grade": "C",
+    "status": "Pass"
+  },
+  {
+    "roll_no": "104",
+    "name": "Sneha Reddy",
+    "department": "Computer Science",
+    "marks": {
+      "Mathematics": 74.0,
+      "Physics": 76.0,
+      "Chemistry": 71.0,
+      "English": 80.0,
+      "Computer Science": 78.0
+    },
+    "total": 379.0,
+    "percentage": 75.8,
+    "grade": "B",
+    "status": "Pass"
+  },
+  {
+    "roll_no": "105",
+    "name": "Vikram Singh",
+    "department": "Mechanical",
+    "marks": {
+      "Mathematics": 45.0,
+      "Physics": 42.0,
+      "Chemistry": 38.0,
+      "English": 52.0,
+      "Computer Science": 48.0
+    },
+    "total": 225.0,
+    "percentage": 45.0,
+    "grade": "F",
+    "status": "Fail"
+  }
+]
