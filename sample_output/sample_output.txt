@@ -1,0 +1,220 @@
+Loaded 5 student record(s) from database.
+
+====================================================
+   STUDENT RESULT & GRADE MANAGEMENT SYSTEM
+         (Veda Technology Internship)
+====================================================
+1. Add Student Record
+2. View All Students
+3. Search Student (by Roll No or Name)
+4. Update Student Details or Marks
+5. Delete Student Record
+6. View Class Performance Summary
+7. Exit Program
+====================================================
+Enter your choice (1-7): 2
+
+============================================================================================
+Roll No    Name                   Department             Total    Percentage   Grade    Status  
+--------------------------------------------------------------------------------------------
+101        Rahul Sharma           Computer Science       429.00   85.80%       A        Pass    
+102        Priya Patel            Information Technology 460.00   92.00%       A+       Pass    
+103        Amit Kumar             Electronics            315.00   63.00%       C        Pass    
+104        Sneha Reddy            Computer Science       379.00   75.80%       B        Pass    
+105        Vikram Singh           Mechanical             225.00   45.00%       F        Fail    
+============================================================================================
+Total Students: 5
+
+
+====================================================
+   STUDENT RESULT & GRADE MANAGEMENT SYSTEM
+         (Veda Technology Internship)
+====================================================
+1. Add Student Record
+2. View All Students
+3. Search Student (by Roll No or Name)
+4. Update Student Details or Marks
+5. Delete Student Record
+6. View Class Performance Summary
+7. Exit Program
+====================================================
+Enter your choice (1-7): 3
+
+Enter Roll Number or Name to search: Priya
+
+Found 1 matching student(s):
+------------------------------------------------------------
+Roll Number : 102
+Name        : Priya Patel
+Department  : Information Technology
+Subject Marks:
+  * Mathematics       : 92.00
+  * Physics           : 88.00
+  * Chemistry         : 95.00
+  * English           : 89.00
+  * Computer Science  : 96.00
+Total Marks : 460.00
+Percentage  : 92.00%
+Grade       : A+
+Result      : Pass
+------------------------------------------------------------
+
+====================================================
+   STUDENT RESULT & GRADE MANAGEMENT SYSTEM
+         (Veda Technology Internship)
+====================================================
+1. Add Student Record
+2. View All Students
+3. Search Student (by Roll No or Name)
+4. Update Student Details or Marks
+5. Delete Student Record
+6. View Class Performance Summary
+7. Exit Program
+====================================================
+Enter your choice (1-7): 1
+
+--- Add New Student ---
+Enter Roll Number: 101
+Error: Roll number '101' already exists. Please try again.
+Enter Roll Number: 106
+Enter Student Name: Ananya Sharma
+Enter Class / Department: Computer Science
+Enter number of subjects: 4
+Now enter subject names and marks (0 - 100):
+  Enter Subject 1 Name: Mathematics
+  Enter marks for Mathematics: 95
+  Enter Subject 2 Name: Physics
+  Enter marks for Physics: 105
+  Error: Marks must be between 0 and 100. Try again.
+  Enter marks for Physics: 88
+  Enter Subject 3 Name: Chemistry
+  Enter marks for Chemistry: 92
+  Enter Subject 4 Name: English
+  Enter marks for English: 91
+
+Student 'Ananya Sharma' (Roll No: 106) added successfully!
+
+====================================================
+   STUDENT RESULT & GRADE MANAGEMENT SYSTEM
+         (Veda Technology Internship)
+====================================================
+1. Add Student Record
+2. View All Students
+3. Search Student (by Roll No or Name)
+4. Update Student Details or Marks
+5. Delete Student Record
+6. View Class Performance Summary
+7. Exit Program
+====================================================
+Enter your choice (1-7): 4
+
+--- Update Student Details ---
+Enter Roll Number of the student to update: 105
+
+Editing record for Vikram Singh (Roll: 105)
+1. Update Name
+2. Update Department
+3. Update Subject Marks
+4. Cancel
+Enter option (1-4): 3
+
+Current marks:
+  * Mathematics: 45.0
+  * Physics: 42.0
+  * Chemistry: 38.0
+  * English: 52.0
+  * Computer Science: 48.0
+
+Enter subject name to update (or type 'all' to re-enter all subjects): Chemistry
+Enter new marks for Chemistry: 55
+Marks and grade updated successfully.
+
+====================================================
+   STUDENT RESULT & GRADE MANAGEMENT SYSTEM
+         (Veda Technology Internship)
+====================================================
+1. Add Student Record
+2. View All Students
+3. Search Student (by Roll No or Name)
+4. Update Student Details or Marks
+5. Delete Student Record
+6. View Class Performance Summary
+7. Exit Program
+====================================================
+Enter your choice (1-7): 2
+
+============================================================================================
+Roll No    Name                   Department             Total    Percentage   Grade    Status  
+--------------------------------------------------------------------------------------------
+101        Rahul Sharma           Computer Science       429.00   85.80%       A        Pass    
+102        Priya Patel            Information Technology 460.00   92.00%       A+       Pass    
+103        Amit Kumar             Electronics            315.00   63.00%       C        Pass    
+104        Sneha Reddy            Computer Science       379.00   75.80%       B        Pass    
+105        Vikram Singh           Mechanical             242.00   48.40%       F        Fail    
+106        Ananya Sharma          Computer Science       366.00   91.50%       A+       Pass    
+============================================================================================
+Total Students: 6
+
+
+====================================================
+   STUDENT RESULT & GRADE MANAGEMENT SYSTEM
+         (Veda Technology Internship)
+====================================================
+1. Add Student Record
+2. View All Students
+3. Search Student (by Roll No or Name)
+4. Update Student Details or Marks
+5. Delete Student Record
+6. View Class Performance Summary
+7. Exit Program
+====================================================
+Enter your choice (1-7): 6
+
+=======================================================
+           CLASS PERFORMANCE SUMMARY
+=======================================================
+Total Enrolled Students : 6
+Class Average Percentage: 76.08%
+-------------------------------------------------------
+Highest Scorer          : Priya Patel (Roll: 102)
+  Score                 : 92.00% (Total: 460.00, Grade: A+)
+Lowest Scorer           : Vikram Singh (Roll: 105)
+  Score                 : 48.40% (Total: 242.00, Grade: F)
+-------------------------------------------------------
+Students Passed         : 5
+Students Failed         : 1
+Overall Pass Percentage : 83.33%
+-------------------------------------------------------
+Grade Distribution:
+  Grade A+ : 2 student(s)
+  Grade A  : 1 student(s)
+  Grade B  : 1 student(s)
+  Grade C  : 1 student(s)
+  Grade D  : 0 student(s)
+  Grade F  : 1 student(s)
+-------------------------------------------------------
+Subject-wise Averages:
+  * Chemistry           : 76.17 (from 6 students)
+  * Computer Science    : 75.20 (from 5 students)
+  * English             : 78.67 (from 6 students)
+  * Mathematics         : 76.00 (from 6 students)
+  * Physics             : 71.67 (from 6 students)
+=======================================================
+
+
+====================================================
+   STUDENT RESULT & GRADE MANAGEMENT SYSTEM
+         (Veda Technology Internship)
+====================================================
+1. Add Student Record
+2. View All Students
+3. Search Student (by Roll No or Name)
+4. Update Student Details or Marks
+5. Delete Student Record
+6. View Class Performance Summary
+7. Exit Program
+====================================================
+Enter your choice (1-7): 7
+
+Thank you for using the Student Result & Grade Management System!
+All changes have been saved. Exiting...
